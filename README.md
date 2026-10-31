@@ -1,24 +1,17 @@
-# MAN-6581 ProjectLab v0.1.1
+# MAN-6581 ProjectLab v0.1.2
 
-## Deploy to GitHub Pages (manual method)
-1. Open your `man6581-projectlab` GitHub repository.
-2. Choose **Add file → Upload files**, and upload `index.html` and this `README.md` (or create each file in the web editor).
-3. Commit to `main`.
-4. Open **Settings → Pages**, select **Deploy from a branch**, **main**, **/(root)**, and Save.
-5. Visit `https://dragasakisn-beep.github.io/man6581-projectlab/` after GitHub reports deployment complete.
+A static GitHub Pages web application for the 13 chapter micro-labs (Chapters 3–15).
 
-## Run locally
-Open `index.html` in Microsoft Edge or Chrome, or run `py -m http.server 8000` in the folder and browse to `http://localhost:8000`.
+## Publish
+1. Upload `index.html` to the root of your GitHub repository on branch `main`.
+2. Under Settings → Pages, choose Deploy from branch: `main` / `(root)` and save.
+3. Site URL: https://dragasakisn-beep.github.io/man6581-projectlab/ (once Pages is active).
 
-## Student project continuity
-- Choose a business before Chapter 3.
-- Save each lab in the browser.
-- Export a full project JSON backup after every session.
-- Next session, import JSON to restore data, including completed chapters.
-- CSV contains chapter fields for analysis in Excel; use browser Print to save PDF.
+## Student continuity
+All work is local to the user's browser. Export JSON after every lab. Import the JSON before continuing on another device. The PDF report is read-only and should not be used as the continuity backup.
 
-## Important limitations
-- This is a single-browser, local-storage prototype, not a multiuser LMS or grading backend.
-- GitHub Pages is static hosting and does not store student submissions.
-- Do not enter private or sensitive student information.
-- Instructor-controlled simulation distribution and cloud synchronization are planned enhancements.
+## Updates
+EU-inspired navy, emerald, teal and gold header; Start Here navigation; chapter title reordering; visual completion chart; full report with print-to-PDF; Chapter 4 RAM/RACI description. Previous local storage key remains unchanged for compatibility.
+
+## Important
+This is a teaching prototype, not a university-hosted service. No user accounts, authentication, central storage, instructor submissions, or server-side backups are provided. Do not store regulated or sensitive student information.
